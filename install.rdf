@@ -9,6 +9,8 @@
 		<em:contributor>Brenton M. Wiernik</em:contributor>
 		<em:description>Quick Look Utility for Zotero.</em:description>
     <em:updateURL>https://raw.githubusercontent.com/mronkko/ZoteroQuickLook/master/update.rdf</em:updateURL>
+
+    <em:optionsURL>chrome://zoteroquicklook/content/preferences.xul</em:optionsURL>
     <em:unpack>true</em:unpack>
     <em:targetApplication>
       <Description>

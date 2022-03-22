@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://zoteroquicklook/locale/zoteroquicklook.dtd">
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://zotero-platform/content/preferences.css"?>
+<?xml-stylesheet href="chrome://browser/skin/preferences/preferences.css"?>
+<?xml-stylesheet href="chrome://zotero/skin/preferences.css"?>
+
+<prefwindow 
+    id="zoteroquicklook-preferences"
+    title="ZoteroQuicklook Preferences"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script src="chrome://zotero/content/include.js"/>
+
+
+    <prefpane label="General" id="zoteroquicklook-prefpane-general" flex="1">
+        <preferences>
+            <preference id="pref-zoteroquicklook-toggle_key" name="extensions.zoteroquicklook.toggle_key" type="string"/>
+        </preferences>
+        <groupbox>
+            <caption label="Toggle key"/>
+            <label value="Setup your toggle key with '|' split:"/>
+            <textbox id="pref-zoteroquicklook-toggle_key" flex="1" preference="pref-zoteroquicklook-toggle_key"/>
+        </groupbox>
+    </prefpane>
+
+</prefwindow>
