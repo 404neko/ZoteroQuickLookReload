@@ -106,4 +106,5 @@ dist
 
 *.jsakura
 *.zoteroplugin
-builds/
+*.exe
+builds/*.*
