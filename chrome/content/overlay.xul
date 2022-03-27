@@ -11,11 +11,11 @@
 			oncommand="Zotero.ZoteroQuickLook.openQuickLook(ZoteroPane.getSelectedItems());"/>
 	</menupopup>
 	
-	<!-- 
+
 	<menupopup id="menu_ToolsPopup">
       <menuitem id="zoteroquicklook-options" insertafter="menu_preferences" label="&zoteroquicklook.menuitem;" oncommand="Zotero.ZoteroQuickLook.openPreferenceWindow();"/>
     </menupopup>
-	-->
+
 
 	<!-- Include the main extension logic -->
 	<script src="chrome://zotero/content/include.js"/>
