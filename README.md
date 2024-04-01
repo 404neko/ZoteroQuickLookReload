@@ -1,6 +1,10 @@
 ZoteroQuickLook
 ===============
 
+
+BREAKING: ZoteroQuickLook has comeback! New release will be publish within a month!
+
+
 This open source project implements QuickLook in Zotero.
 
 # Status
